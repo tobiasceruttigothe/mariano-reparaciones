@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Reparación - Juan Pérez</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Juan Pérez</h1>
+        <p>Especialista en Reparaciones e Instalaciones</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Soy Juan Pérez, técnico con amplia experiencia en reparación de electrodomésticos y sistemas de climatización. Mi objetivo es ofrecer soluciones rápidas y eficientes para tus necesidades.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Instalación, limpieza y reparación de aires acondicionados</li>
+            <li>Reparación de heladeras, microondas y lavarropas</li>
+            <li>Instalación de cámaras de seguridad</li>
+            <li>Soluciones eléctricas básicas</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes comunicarte conmigo para solicitar un presupuesto o hacer una consulta.</p>
+        <form id="contact-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensaje-exito" class="oculto">¡Mensaje enviado con éxito!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Juan Pérez - Reparaciones e Instalaciones</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
